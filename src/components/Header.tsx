@@ -21,7 +21,7 @@ async function Header() {
 
       <Link className="flex items-end gap-2" href="/">
         <Image
-          src="/goatius.png"
+          src="/Pa-note_white.svg"
           height={60}
           width={60}
           alt="logo"
@@ -30,7 +30,7 @@ async function Header() {
         />
 
         <h1 className="flex flex-col pb-1 text-2xl font-semibold leading-6">
-          GOAT <span>Notes</span>
+           <span>Pa-Note</span>
         </h1>
       </Link>
 

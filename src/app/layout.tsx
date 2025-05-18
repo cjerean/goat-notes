@@ -8,7 +8,7 @@ import AppSidebar from "@/components/AppSidebar";
 import NoteProvider from "@/providers/NoteProvider";
 
 export const metadata: Metadata = {
-  title: "GOAT Notes",
+  title: "Pa-Note",
 };
 
 export default function RootLayout({

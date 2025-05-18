@@ -7,7 +7,7 @@
     "build": "pnpm dlx prisma generate && next build",
     "start": "next start",
     "lint": "next lint",
-    "migrate": "pnpm dlx prisma generate && env $(cat .env.local | xargs) pnpm dlx prisma migrate dev"
+    "migrate": "pnpm dlx prisma generate && dotenv pnpm dlx prisma migrate dev"
   },
   "prisma": {
     "schema": "src/db/schema.prisma"
@@ -42,6 +42,7 @@
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "dotenv-cli": "^8.0.0",
     "eslint": "^9",
     "eslint-config-next": "15.1.6",
     "postcss": "^8",
